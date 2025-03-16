@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../view model/responsive.dart';
+import 'package:flutter_portfolio/widgets/alexendaria_text.dart';
 
 class AnimatedDescriptionText extends StatelessWidget {
   const AnimatedDescriptionText(
@@ -13,11 +12,9 @@ class AnimatedDescriptionText extends StatelessWidget {
       tween: Tween(begin: start, end: end),
       duration: const Duration(milliseconds: 200),
       builder: (context, value, child) {
-        return Text(
-          'I\'m capable of creating excellent mobile apps, handling${Responsive.isLargeMobile(context) ? '\n' : ''}every step from ${!Responsive.isLargeMobile(context) ? '\n' : ''}concept to deployment.',
-          maxLines: 2,
-          overflow: TextOverflow.ellipsis,
-          style: TextStyle(color: Colors.grey, wordSpacing: 2, fontSize: value),
+        return OpenSansText(
+          'Passionate about building intuitive and efficient mobile and web applications using Flutter and Dart.\nWith experience in Clean Architecture, state management (Riverpod, GetX), and REST APIs, I specialize in creating seamless user experiences. Always eager to learn, collaborate, and innovate.\nLet’s connect and build something impactful!',
+          maxLines: 7,
         );
       },
     );

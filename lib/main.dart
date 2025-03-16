@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_portfolio/res/constants.dart';
-import 'package:flutter_portfolio/view/splash/splash_view.dart';
-import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_portfolio/const/colors.dart';
+import 'package:flutter_portfolio/view/home/home.dart';
 
 void main() {
   runApp(const MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
@@ -13,20 +13,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        scaffoldBackgroundColor: bgColor,
+        scaffoldBackgroundColor: AppColors.primary,
         useMaterial3: true,
-        textTheme: GoogleFonts.openSansTextTheme(Theme.of(context).textTheme)
-            .apply(bodyColor: Colors.white,)
-            .copyWith(
-          bodyText1: const TextStyle(color: bodyTextColor),
-          bodyText2: const TextStyle(color: bodyTextColor),
-        ),
       ),
-
-      home: SplashView()
+      home: HomePage(),
     );
   }
 }
-
-
