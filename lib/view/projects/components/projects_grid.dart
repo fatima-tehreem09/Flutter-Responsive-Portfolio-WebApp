@@ -4,7 +4,6 @@ import 'package:get/get.dart';
 
 import '../../../const/colors.dart';
 import '../../../model/project_model.dart';
-import '../../../res/constants.dart';
 import '../../../view model/getx_controllers/projects_controller.dart';
 
 class ProjectGrid extends StatelessWidget {

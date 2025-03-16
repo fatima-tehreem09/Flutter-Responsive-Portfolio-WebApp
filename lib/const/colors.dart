@@ -8,3 +8,5 @@ class AppColors {
   static const gOrange1 = Color(0xffff4800);
   static const gOrange2 = Color(0xffffb600);
 }
+
+const defaultPadding = 20.0;

@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/const/colors.dart';
 
-import '../../../res/constants.dart';
-
 class MenuButton extends StatelessWidget {
   final VoidCallback? onTap;
   const MenuButton({super.key, this.onTap});

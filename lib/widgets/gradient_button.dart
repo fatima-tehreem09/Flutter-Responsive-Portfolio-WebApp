@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/const/colors.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-import '../../../res/constants.dart';
-
 class GradientButton extends StatelessWidget {
   const GradientButton({
     super.key,

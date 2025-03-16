@@ -6,7 +6,6 @@ import 'package:flutter_portfolio/widgets/alexendaria_text.dart';
 import 'package:flutter_portfolio/widgets/hover_button.dart';
 
 import '../../../model/project_model.dart';
-import '../../../res/constants.dart';
 import '../../../view model/responsive.dart';
 
 class ProjectDetail extends StatelessWidget {

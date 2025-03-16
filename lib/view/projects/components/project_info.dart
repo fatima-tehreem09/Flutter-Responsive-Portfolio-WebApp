@@ -3,7 +3,6 @@ import 'package:flutter_portfolio/const/colors.dart';
 import 'package:flutter_portfolio/view/projects/components/project_detail.dart';
 import 'package:get/get.dart';
 
-import '../../../res/constants.dart';
 import '../../../view model/getx_controllers/projects_controller.dart';
 
 class ProjectStack extends StatefulWidget {

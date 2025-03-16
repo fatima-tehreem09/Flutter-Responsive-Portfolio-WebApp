@@ -3,7 +3,7 @@ import 'package:flutter_portfolio/widgets/alexendaria_text.dart';
 import 'package:flutter_portfolio/widgets/gradient_button.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import '../../../res/constants.dart';
+import '../../../const/colors.dart';
 
 class DownloadButton extends StatelessWidget {
   const DownloadButton({super.key});

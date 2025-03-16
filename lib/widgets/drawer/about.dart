@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/const/colors.dart';
-import 'package:flutter_portfolio/res/constants.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import 'drawer_image.dart';
@@ -18,7 +17,7 @@ class About extends StatelessWidget {
             const Spacer(
               flex: 2,
             ),
-            const DrawerImage(),
+            DrawerImage(),
             const Spacer(),
             Text(
               'Tehreem Fatima',

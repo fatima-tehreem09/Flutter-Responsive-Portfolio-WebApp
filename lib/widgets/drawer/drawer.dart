@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/const/colors.dart';
 import 'package:flutter_portfolio/widgets/drawer/personal_info.dart';
 
-import '../../../../res/constants.dart';
 import 'about.dart';
 import 'contact_icons.dart';
 import 'my_skill.dart';

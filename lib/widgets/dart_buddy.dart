@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../const/colors.dart';
-import '../res/constants.dart';
 import '../view model/responsive.dart';
 
 class DartBuddy extends StatelessWidget {

@@ -3,8 +3,6 @@ import 'package:flutter_portfolio/const/colors.dart';
 import 'package:flutter_portfolio/view/intro/components/social_media_coloumn.dart';
 import 'package:flutter_portfolio/widgets/alexendaria_text.dart';
 
-import '../../../res/constants.dart';
-
 class SocialMediaIconList extends StatelessWidget {
   const SocialMediaIconList({super.key});
 

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/const/colors.dart';
-import 'package:flutter_portfolio/res/constants.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AnimatedLoadingText extends StatelessWidget {

@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/extensions/size_extension.dart';
-import 'package:flutter_portfolio/res/constants.dart';
 import 'package:flutter_portfolio/view%20model/controller.dart';
 import 'package:flutter_portfolio/view/main/components/navigation_bar.dart';
 
+import '../../const/colors.dart';
 import '../../view model/responsive.dart';
 import '../../widgets/drawer/drawer.dart';
 import 'components/navigation_button_list.dart';

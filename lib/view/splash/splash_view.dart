@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/const/colors.dart';
-import 'package:flutter_portfolio/res/constants.dart';
 import 'package:flutter_portfolio/view/home/home.dart';
 import 'package:flutter_portfolio/view/splash/componenets/animated_loading_text.dart';
 import 'package:flutter_portfolio/widgets/dart_buddy.dart';

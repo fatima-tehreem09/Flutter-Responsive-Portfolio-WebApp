@@ -2,7 +2,7 @@ import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
 import 'package:flutter_portfolio/widgets/dart_buddy.dart';
 
-import '../../../res/constants.dart';
+import '../../../const/colors.dart';
 import '../../../view model/responsive.dart';
 import '../../../widgets/box_animation.dart';
 import 'combine_subtitle.dart';

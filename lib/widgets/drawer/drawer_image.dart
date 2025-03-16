@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_portfolio/const/colors.dart';
 
-import '../../../../res/constants.dart';
+import '../../const/colors.dart';
 
 class DrawerImage extends StatelessWidget {
   const DrawerImage({super.key});
@@ -14,19 +13,19 @@ class DrawerImage extends StatelessWidget {
       padding: const EdgeInsets.all(defaultPadding / 6),
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(50),
-          gradient: LinearGradient(
+          gradient: const LinearGradient(
             colors: [
               AppColors.gOrange1,
               AppColors.gOrange2,
             ],
           ),
           boxShadow: [
-            BoxShadow(
+            const BoxShadow(
               color: AppColors.gOrange1,
               blurRadius: 10,
               offset: Offset(0, 2),
             ),
-            BoxShadow(
+            const BoxShadow(
               color: AppColors.gOrange2,
               blurRadius: 10,
               offset: Offset(0, -2),
