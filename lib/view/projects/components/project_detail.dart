@@ -81,30 +81,36 @@ class ProjectDetail extends StatelessWidget {
   void _showOverlay(BuildContext context) {
     final overlay = Overlay.of(context);
     final overlayEntry = OverlayEntry(
-      builder: (context) => Center(
-        child: Material(
-          color: Colors.transparent,
-          child: Container(
-            margin: EdgeInsets.all(20),
-            decoration: BoxDecoration(
-              color: AppColors.secondaryGrey,
-              borderRadius: BorderRadius.circular(30),
-              border: Border.all(
-                color: AppColors.gOrange1,
-                width: 2,
+      builder: (context) {
+        final project = projectList[index];
+        return Center(
+          child: Material(
+            color: Colors.transparent,
+            child: Container(
+              margin: EdgeInsets.all(20),
+              decoration: BoxDecoration(
+                color: AppColors.secondaryGrey,
+                borderRadius: BorderRadius.circular(30),
+                border: Border.all(
+                  color: AppColors.gOrange1,
+                  width: 2,
+                ),
               ),
-            ),
-            width: double.infinity,
-            height: double.infinity,
-            child: Center(
-              child: Text(
-                'Hello, Overlay!',
-                style: TextStyle(color: Colors.white, fontSize: 20),
+              width: double.infinity,
+              height: double.infinity,
+              child: Column(
+                children: [
+                  Text(
+                    project.name,
+                    style: TextStyle(color: Colors.white, fontSize: 20),
+                  ),
+                  Image.asset(project.image.first),
+                ],
               ),
             ),
           ),
-        ),
-      ),
+        );
+      },
     );
     overlay.insert(overlayEntry);
   }
